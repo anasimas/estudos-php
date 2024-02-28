@@ -1,1 +1,1 @@
-# estudos-php
+Repositório dedicado as atividades de *PHP*
