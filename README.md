@@ -18,9 +18,9 @@ A tipagem dinâmica significa que o tipo de uma variável depende do dado atribu
 
 Permite que o fluxo de execução seja desviado de acordo com condições lógicas, aritiméticas ou comparativas:
 
-`if($valor > 10){
-   echo "O valor é maior que 10";
-}`
+    if($valor > 10){
+      echo "O valor é maior que 10";
+     }
 
 **5. O que é o operador de módulo (%) e como ele pode ser útil em PHP?**
 
@@ -34,16 +34,16 @@ Para indicar o final da instrução.
 
 Caso uma das condições seja atendida, o fluxo será desviado para a sentença dentro do bloco _case_:
 
-`switch ($corDoGatinho) {
-    case "Branco":
-        echo: "Mingau!";
-        break;
-    case "Mescladinho":
-        echo: "Valira!";
-        break;
+    switch ($corDoGatinho) {
+     case "Branco":
+       echo: "Mingau!";
+       break;
+     case "Mescladinho":
+       echo: "Valira!";
+       break;
     case "PretoBranco":
-        echo: "Nova!";
-        break;
+       echo: "Nova!";
+       break;
     default:
         echo: "Não foi possível identificar!";
     }`
@@ -65,7 +65,7 @@ Existem 4 formas de concatenar strings em PHP:
 
 Representa verdadeiro ou falso. Podemos utilizar em uma validação de lógica, por exemplo:
 
-`$gato = true;
-if($gato){
-    echo "tem um gato aqui!";
-    }`
+    $gato = true;
+    if($gato){
+       echo "tem um gato aqui!";
+    }
